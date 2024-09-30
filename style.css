@@ -28,7 +28,7 @@ body {
     display: flex;
     list-style: none;
     width: 300px;
-    justify-content: space-between;
+
 }
 
 .navbar a,
@@ -233,21 +233,29 @@ li {
 }
 
 /* Media Query para telas pequenas */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .header .container {
-        flex-direction: column; /* Alinha o conteúdo verticalmente */
-        padding: 10px; /* Ajuste o padding */
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
-
+    .container .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
     .navbar {
         flex-direction: column; /* Navbar em coluna */
         width: 100%; /* Largura total */
     }
-
-    .navbar a {
-        padding: 10px; /* Adiciona padding nos links */
-    }
-
     .footer .container {
         flex-direction: column; /* Alinha o conteúdo horizontalmente */
         justify-content: space-between; /* Espaço entre itens */
