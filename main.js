@@ -9,9 +9,9 @@ function adicionarProduto() {
         saldo = Number(input_saldo.value);
     }
 
-    const nomeProduto = input_nome_produto.value;
-    const quantidade = Number(input_quantidade.value);
-    const valorUnitario = Number(input_valor_unitario.value);
+    const nomeProduto = input_nome_produto.value; // Obtém o nome do produto
+    const quantidade = Number(input_quantidade.value); // Obtém a quantidade
+    const valorUnitario = Number(input_valor_unitario.value); // Obtém o valor unitário
 
     // Verifica se todos os campos estão preenchidos corretamente
     if (!nomeProduto || quantidade <= 0 || valorUnitario <= 0) {
@@ -27,7 +27,7 @@ function adicionarProduto() {
             saldo -= valorTotalProduto;
             totalCompra += valorTotalProduto;
 
-            // Atualiza o HTML
+            // Atualiza o HTML com o novo item na lista
             const lista = listaProdutos; // Assume que listaProdutos é um UL ou OL
             const novoItem = document.createElement('li'); // Cria um novo item de lista
             novoItem.innerHTML = `${quantidade}x ${nomeProduto} - ${valorTotalProduto.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
@@ -41,6 +41,9 @@ function adicionarProduto() {
             input_nome_produto.value = '';
             input_quantidade.value = '';
             input_valor_unitario.value = '';
+
+            // Retorna o foco ao primeiro campo para facilitar a próxima entrada
+            input_nome_produto.focus();
         }
     }
 }
