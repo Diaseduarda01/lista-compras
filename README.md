@@ -19,7 +19,7 @@ A ideia é proporcionar uma ferramenta prática que ajude os usuários a registr
 A aplicação foi projetada para ser utilizada em telas de computadores e dispositivos móveis, garantindo uma interface responsiva e fácil de usar.
 
 🌐 **Acesse o Projeto**  
-Você pode acessar o projeto hospedado através do seguinte link: [Lista de Compras](link-do-projeto)
+Você pode acessar o projeto hospedado através do seguinte link: [Lista de Compras](https://diaseduarda01.github.io/lista-compras/)
 
 🎯 **Objetivo**  
 Este projeto foi criado para atender a uma necessidade real de controle financeiro durante as compras. Se você também busca uma forma prática de gerenciar seus gastos, este aplicativo pode ser uma ótima adição à sua rotina de compras. Sinta-se à vontade para integrá-lo e simplificar suas experiências no supermercado!
