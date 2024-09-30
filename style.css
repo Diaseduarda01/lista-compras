@@ -233,7 +233,7 @@ li {
 }
 
 /* Media Query para telas pequenas */
-@media (max-width: 700px) {
+@media (max-width: 830px) {
     .header .container {
         display: flex;
         height: 100%;
