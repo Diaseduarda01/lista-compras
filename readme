@@ -1,0 +1,3 @@
+Fernanda, uma adulta responsável, está planejando sua compra mensal no mercado, onde ela não pode ultrapassar o saldo disponível no seu cartão de crédito. Sua tarefa é ajudá-la a gerenciar sua lista de compras e garantir que ela não ultrapasse o limite de gastos.
+
+ Crie um programa que permita a Fernanda adicionar mercadorias à sua lista de compras. Cada mercadoria terá uma quantidade, nome e valor por unidade. O saldo total será subtraído conforme os produtos são adicionados, e o programa deve exibir a soma total das compras realizadas. Se o saldo no cartão for insuficiente para adicionar um produto, uma mensagem deverá ser exibida e o produto não poderá ser adicionado.
